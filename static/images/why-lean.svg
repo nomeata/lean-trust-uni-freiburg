@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1600 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Why Lean: correctness, assistance, early feedback, refactoring, search, consistent definitions, collaboration at scale, trust bottleneck" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+<rect x="0" y="0" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M0 64 V16 Q0 0 16 0 H354 Q370 0 370 16 V64 Z" fill="#0891b2"/>
+<text x="185.0" y="44" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Correctness</text>
+<rect x="20" y="90" width="330" height="115" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="34" y="115.3" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#cf222e" font-weight="700">theorem</tspan><tspan fill="#0f172a" font-weight="400"> primes :</tspan></text>
+<text x="34" y="147.2" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">  ∀ n, ∃ p &gt; n,</tspan></text>
+<text x="34" y="179.1" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">    </tspan><tspan fill="#0550ae" font-weight="400">IsPrime</tspan><tspan fill="#0f172a" font-weight="400"> p</tspan></text>
+<rect x="60" y="235" width="250" height="56" rx="28" fill="#ecfdf5" stroke="#15803d" stroke-width="2"/>
+<text x="185.0" y="272" font-size="26" font-weight="600" fill="#15803d" text-anchor="middle">✓  No goals</text>
+<rect x="410" y="0" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M410 64 V16 Q410 0 426 0 H764 Q780 0 780 16 V64 Z" fill="#0891b2"/>
+<text x="595.0" y="44" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Assistance</text>
+<rect x="430" y="90" width="330" height="51" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="444" y="115.3" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">  </tspan><tspan fill="#cf222e" font-weight="700">exact?</tspan></text>
+<line x1="595.0" y1="149" x2="595.0" y2="177.0" stroke="#0891b2" stroke-width="3"/><polygon points="595.0,189 587.8,177.0 602.2,177.0" fill="#0891b2"/>
+<rect x="430" y="199" width="330" height="83" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="444" y="224.3" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">Try this:</tspan></text>
+<text x="444" y="256.2" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">  </tspan><tspan fill="#cf222e" font-weight="700">exact</tspan><tspan fill="#0f172a" font-weight="400"> </tspan><tspan fill="#0550ae" font-weight="400">Nat.dvd_refl</tspan><tspan fill="#0f172a" font-weight="400"> n</tspan></text>
+<rect x="820" y="0" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M820 64 V16 Q820 0 836 0 H1174 Q1190 0 1190 16 V64 Z" fill="#0891b2"/>
+<text x="1005.0" y="44" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Early feedback</text>
+<rect x="840" y="90" width="330" height="51" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="854" y="115.3" font-size="22" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">  </tspan><tspan fill="#cf222e" font-weight="700">simp</tspan><tspan fill="#0f172a" font-weight="400"> [</tspan><tspan fill="#0550ae" font-weight="400">factorial</tspan><tspan fill="#0f172a" font-weight="400">]</tspan></text>
+<path d="M880 131 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0 q 5 6 10 0 q 5 -6 10 0" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<rect x="840" y="171" width="330" height="112" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+<text x="854" y="207" font-size="22" font-weight="400" fill="#dc2626" text-anchor="start" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">unsolved goals</text>
+<text x="854" y="245" font-size="22" font-weight="400" fill="#0f172a" text-anchor="start" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">⊢ 0 &lt; n !</text>
+<rect x="1230" y="0" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M1230 64 V16 Q1230 0 1246 0 H1584 Q1600 0 1600 16 V64 Z" fill="#0891b2"/>
+<text x="1415.0" y="44" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Refactoring</text>
+<rect x="1250" y="90" width="330" height="40" rx="6" fill="#fef2f2"/>
+<text x="1262" y="118" font-size="22" font-weight="400" fill="#dc2626" text-anchor="start" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">- def IsPrime …</text>
+<rect x="1250" y="136" width="330" height="40" rx="6" fill="#ecfdf5"/>
+<text x="1262" y="164" font-size="22" font-weight="400" fill="#15803d" text-anchor="start" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">+ def Nat.Prime …</text>
+<rect x="1345.0" y="198" width="140" height="44" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="1415.0" y="228" font-size="20" font-weight="400" fill="#0550ae" text-anchor="middle" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">Nat.Prime</text>
+<line x1="1415.0" y1="242" x2="1272.0" y2="300" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="1272.0" cy="312" r="13" fill="#15803d"/>
+<line x1="1415.0" y1="242" x2="1343.5" y2="300" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="1343.5" cy="312" r="13" fill="#dc2626"/>
+<line x1="1415.0" y1="242" x2="1415.0" y2="300" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="1415.0" cy="312" r="13" fill="#15803d"/>
+<line x1="1415.0" y1="242" x2="1486.5" y2="300" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="1486.5" cy="312" r="13" fill="#dc2626"/>
+<line x1="1415.0" y1="242" x2="1558.0" y2="300" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="1558.0" cy="312" r="13" fill="#15803d"/>
+<rect x="0" y="420" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M0 484 V436 Q0 420 16 420 H354 Q370 420 370 436 V484 Z" fill="#0891b2"/>
+<text x="185.0" y="464" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Search</text>
+<rect x="20" y="510" width="330" height="56" rx="28" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="48" cy="536" r="10" fill="none" stroke="#64748b" stroke-width="3"/><line x1="55" y1="543" x2="64" y2="552" stroke="#64748b" stroke-width="3"/>
+<text x="76" y="546" font-size="20" font-weight="400" fill="#0f172a" text-anchor="start" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">_*(_+_) = _*_+_*_</text>
+<line x1="185.0" y1="576" x2="185.0" y2="604.0" stroke="#0891b2" stroke-width="3"/><polygon points="185.0,616 177.8,604.0 192.2,604.0" fill="#0891b2"/>
+<rect x="20" y="626" width="330" height="110" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="34" y="650.1" font-size="21" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0550ae" font-weight="400">Nat.mul_add</tspan></text>
+<text x="34" y="680.6" font-size="21" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400"> : x*(y+z)</tspan></text>
+<text x="34" y="711.0" font-size="21" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace" fill="#0f172a" xml:space="preserve"><tspan fill="#0f172a" font-weight="400">   = x*y+x*z</tspan></text>
+<rect x="410" y="420" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M410 484 V436 Q410 420 426 420 H764 Q780 420 780 436 V484 Z" fill="#0891b2"/>
+<text x="595.0" y="464" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Consistent definitions</text>
+<line x1="595.0" y1="630" x2="738" y2="599" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="738" cy="599" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="706" y2="563" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="706" cy="563" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="656" y2="539" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="656" cy="539" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="595" y2="530" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="595" cy="530" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="534" y2="539" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="534" cy="539" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="484" y2="563" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="484" cy="563" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="452" y2="599" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="452" cy="599" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="490" y2="740" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="490" cy="740" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="595" y2="740" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="595" cy="740" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<line x1="595.0" y1="630" x2="700" y2="740" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="700" cy="740" r="11" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<rect x="510.0" y="604" width="170" height="52" rx="10" fill="#0073A3"/>
+<text x="595.0" y="639" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle" font-family="'SF Mono', Menlo, Monaco, Consolas, monospace">Nat.Prime</text>
+<rect x="820" y="420" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M820 484 V436 Q820 420 836 420 H1174 Q1190 420 1190 436 V484 Z" fill="#0891b2"/>
+<text x="1005.0" y="464" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Collaboration at scale</text>
+<text x="1005.0" y="630" font-size="96" font-weight="700" fill="#0073A3" text-anchor="middle">750+</text>
+<text x="1005.0" y="685" font-size="26" font-weight="400" fill="#64748b" text-anchor="middle">Mathlib contributors</text>
+<text x="1005.0" y="725" font-size="26" font-weight="400" fill="#64748b" text-anchor="middle">2.4M+ lines</text>
+<rect x="1230" y="420" width="370" height="360" rx="16" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<path d="M1230 484 V436 Q1230 420 1246 420 H1584 Q1600 420 1600 436 V484 Z" fill="#0891b2"/>
+<text x="1415.0" y="464" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">Trust bottleneck</text>
+<rect x="1250" y="520" width="130" height="52" rx="26" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="1315" y="554" font-size="22" font-weight="400" fill="#0f172a" text-anchor="middle">Coauthor</text>
+<line x1="1382" y1="546" x2="1442.2" y2="616.9" stroke="#94a3b8" stroke-width="2.5"/><polygon points="1450,626 1436.7,621.5 1447.7,612.2" fill="#94a3b8"/>
+<rect x="1250" y="600" width="130" height="52" rx="26" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="1315" y="634" font-size="22" font-weight="400" fill="#0f172a" text-anchor="middle">Student</text>
+<line x1="1382" y1="626" x2="1438.0" y2="626.0" stroke="#94a3b8" stroke-width="2.5"/><polygon points="1450,626 1438.0,633.2 1438.0,618.8" fill="#94a3b8"/>
+<rect x="1250" y="680" width="130" height="52" rx="26" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="1315" y="714" font-size="22" font-weight="400" fill="#0f172a" text-anchor="middle">AI</text>
+<line x1="1382" y1="706" x2="1442.2" y2="635.1" stroke="#94a3b8" stroke-width="2.5"/><polygon points="1450,626 1447.7,639.8 1436.7,630.5" fill="#94a3b8"/>
+<rect x="1454" y="590" width="126" height="72" rx="12" fill="#0073A3"/>
+<text x="1517.0" y="636" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Lean ✓</text>
+</svg>

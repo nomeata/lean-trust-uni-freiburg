@@ -1,0 +1,10 @@
+{
+  "name": "lean-trust-uni-freiburg",
+  "private": true,
+  "scripts": {
+    "pdf": "node export-pdf.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

@@ -1,0 +1,7 @@
+/.lake/
+/_slides/
+/out/
+/node_modules/
+/_tmp/
+/.texcache/
+__pycache__/

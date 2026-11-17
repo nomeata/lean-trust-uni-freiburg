@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1600 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Threat models: an honest stick figure writes a² + b² = c² next to a right triangle; a stick figure with a black hat writes a² + b² ≠ c² next to a triangle whose sides are not quite straight" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+<text x="400" y="46" font-size="40" font-weight="600" fill="#0f172a" text-anchor="middle">Honest attempt</text>
+<text x="1240" y="46" font-size="40" font-weight="600" fill="#0f172a" text-anchor="middle">Malicious attempt</text>
+<path d="M270.0 90.0 Q515.0 88.7 760.0 90.0 Q762.0 310.0 760.0 530.0 Q515.0 530.5 270.0 530.0 Q268.3 310.0 270.0 90.0" fill="#ffffff" stroke="#0f172a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M310.0 530.0 Q302.1 605.3 290.0 680.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M720.0 530.0 Q730.5 604.9 740.0 680.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="515.0" y="180" font-size="66" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a" xml:space="preserve">a<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan>+ b<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan>= c<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan></text>
+<path d="M360.0 470.0 Q515.0 471.3 670.0 470.0 Q515.5 359.3 360.0 250.0 Q359.2 360.0 360.0 470.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360 442 H388 V470" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330" y="374.0" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">a</text>
+<text x="515.0" y="516" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">b</text>
+<text x="545.0" y="350.0" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">c</text>
+<path d="M213.4 330.0 Q211.7 337.2 210.2 344.5 Q204.9 349.8 200.7 356.1 Q193.9 359.4 187.8 363.8 Q180.0 363.8 172.3 363.7 Q165.7 360.2 159.2 356.3 Q154.3 350.5 149.1 345.0 Q147.1 337.5 145.3 330.0 Q147.1 322.4 150.1 315.2 Q154.0 309.1 158.6 303.4 Q165.8 300.7 172.6 296.9 Q179.9 295.5 187.4 296.0 Q194.9 298.9 201.7 303.3 Q205.8 309.3 210.3 314.9 Q212.3 322.4 213.4 330.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180.0 364.0 Q181.8 437.0 184.0 510.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184.0 510.0 Q167.1 580.0 150.0 650.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184.0 510.0 Q203.8 579.8 222.0 650.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182.0 405.0 Q209.7 392.2 235.0 375.0 Q281.3 311.6 330.0 250.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182.0 405.0 Q168.4 442.7 154.0 480.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M330 250 l 14 -16" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1090.0 90.0 Q1335.0 88.5 1580.0 90.0 Q1579.3 310.0 1580.0 530.0 Q1335.0 531.1 1090.0 530.0 Q1089.3 310.0 1090.0 90.0" fill="#ffffff" stroke="#0f172a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M1130.0 530.0 Q1118.8 604.8 1110.0 680.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1540.0 530.0 Q1550.9 604.9 1560.0 680.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1335.0" y="180" font-size="66" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a" xml:space="preserve">a<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan>+ b<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan>≠ c<tspan font-size="40" dy="-24">2</tspan><tspan dy="24"> </tspan></text>
+<path d="M1180 470 Q1335.0 488 1490 470 Q1351.2 337.2 1180 250 Q1164 360.0 1180 470" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1180 442 H1208 V470" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1136" y="374.0" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">a</text>
+<text x="1335.0" y="530" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">b</text>
+<text x="1387.0" y="336.0" font-size="44" text-anchor="middle" font-family="'xkcd Script', 'Comic Neue', 'Comic Sans MS', cursive" fill="#0f172a">c</text>
+<path d="M1034.1 330.0 Q1032.7 337.4 1029.9 344.4 Q1025.6 350.8 1020.9 357.0 Q1013.9 359.0 1007.6 362.6 Q1000.1 362.9 992.5 362.5 Q985.3 360.1 978.9 355.9 Q973.3 351.1 969.0 345.1 Q966.4 337.7 965.1 330.0 Q967.3 323.0 968.5 315.7 Q973.6 309.0 979.1 302.7 Q985.5 299.5 992.3 297.0 Q1000.0 296.0 1007.8 296.6 Q1014.2 301.0 1021.6 303.7 Q1026.0 309.4 1030.1 315.3 Q1032.7 322.5 1034.1 330.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1000.0 364.0 Q1004.2 436.9 1004.0 510.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1004.0 510.0 Q989.2 580.5 970.0 650.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1004.0 510.0 Q1024.6 579.6 1042.0 650.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1002.0 405.0 Q1028.9 390.8 1055.0 375.0 Q1101.1 311.4 1150.0 250.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1002.0 405.0 Q990.2 443.3 974.0 480.0" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1150 250 l 14 -16" fill="none" stroke="#0f172a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M975 310 L978 276 Q979 268 988 268 L1012 268 Q1021 268 1022 276 L1025 310 Z" fill="#0f172a" stroke="#0f172a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M964 310 L1036 310" fill="none" stroke="#0f172a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
